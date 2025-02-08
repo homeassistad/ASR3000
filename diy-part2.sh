@@ -9,7 +9,7 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
-sed -i 's/192.168.1.1/192.168.1.8/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.1.3/g' package/base-files/files/bin/config_generate
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci-nginx/Makefile
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci-ssl/Makefile
